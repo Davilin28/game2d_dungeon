@@ -1,0 +1,10 @@
+package dev.codenmore.tilegame.ui;
+
+public class UIImageButton extends UIObject {
+
+	public UIImageButton(float x, float y, int width, int height) {
+		super(x, y, width, height);
+		
+	}
+	
+}

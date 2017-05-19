@@ -1,0 +1,25 @@
+package dev.codenmore.tilegame.states;
+
+import java.awt.Graphics;
+
+import dev.codenmore.tilegame.Handler;
+import dev.codenmore.tilegame.ui.UIManager;
+
+public class MenuState extends State {
+	
+	private UIManager uiManager;
+
+	public MenuState(Handler handler){
+		super(handler);
+	}
+
+	@Override
+	public void tick() {
+		
+	}
+
+	@Override
+	public void render(Graphics g) {
+		
+	}
+}

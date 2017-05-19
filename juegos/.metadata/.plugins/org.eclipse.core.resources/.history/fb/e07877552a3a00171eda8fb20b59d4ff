@@ -1,0 +1,10 @@
+package dev.codenmore.tilegame.tiles;
+
+import dev.codenmore.tilegame.gfx.Assets;
+
+public class RiverTile {
+
+		public RiverTile(int id) {
+			super(Assets.river, id);
+		}
+}

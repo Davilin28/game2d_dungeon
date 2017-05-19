@@ -1,0 +1,6 @@
+package dev.codenmore.tilegame.ui;
+
+public class ClickListener {
+
+	public void onClick();
+}

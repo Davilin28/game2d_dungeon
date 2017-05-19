@@ -1,0 +1,17 @@
+package dev.codenmore.tilegame.display;
+
+import javax.swing.JOptionPane;
+
+public class MessageDialog {
+
+	private static final Object Mensaje = null;
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		
+		JOptionPane.showInputDialog(Mensaje);
+		
+		String respuesta = JOptionPane.showInputDialog("Escribe tu nombre");
+	}
+
+}

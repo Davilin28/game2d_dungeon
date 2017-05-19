@@ -1,0 +1,11 @@
+package dev.codenmore.tilegame.ui;
+
+public class UIObject {
+
+	protected float x, y;
+	protected int width, height;
+	
+	public UIObject(float x, float y, int width, int height){
+		
+	}
+}

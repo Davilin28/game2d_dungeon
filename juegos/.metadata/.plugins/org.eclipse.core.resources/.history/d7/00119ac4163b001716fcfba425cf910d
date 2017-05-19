@@ -1,0 +1,23 @@
+package dev.codenmore.tilegame.ui;
+
+import java.util.ArrayList;
+
+import dev.codenmore.tilegame.Handler;
+
+public class UIManager {
+	
+	private Handler handler;
+	private ArrayList<UIObject> objects;
+
+	public UIManager(Handler handler){
+		this.handler = handler;
+		objects = new ArrayList<UIObject>();
+	}
+	public void tick(){
+		
+	}
+	public void render() {
+		
+	}
+	
+}

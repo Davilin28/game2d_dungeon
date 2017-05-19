@@ -1,0 +1,6 @@
+package dev.codenmore.tilegame.entities;
+
+import java.awt.image.BufferedImage;
+public class Animation {
+
+}

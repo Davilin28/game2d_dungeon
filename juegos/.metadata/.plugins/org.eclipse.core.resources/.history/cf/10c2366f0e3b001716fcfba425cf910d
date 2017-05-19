@@ -1,0 +1,5 @@
+package dev.codenmore.tilegame.input;
+
+public class MouseManager {
+
+}

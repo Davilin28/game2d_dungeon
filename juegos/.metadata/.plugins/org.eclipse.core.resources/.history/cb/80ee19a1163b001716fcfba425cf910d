@@ -1,0 +1,12 @@
+package dev.codenmore.tilegame.ui;
+
+public class UIManager {
+	
+	private Handler handler;
+	private ArrayList<UIObject> objects;
+
+	public UIManager(Handler handler){
+		
+	}
+	
+}

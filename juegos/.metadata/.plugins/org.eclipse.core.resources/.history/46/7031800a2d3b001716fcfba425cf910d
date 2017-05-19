@@ -1,0 +1,11 @@
+package dev.codenmore.tilegame.gfx;
+
+import java.awt.Font;
+
+public class FontLoader {
+
+	public static Font loadFont(String path, float size){
+		return Font.createFont(Font.TRUETYPE_FONT, new File(path)).deriveFont(Font.PLAIN, size);
+		
+	}
+}

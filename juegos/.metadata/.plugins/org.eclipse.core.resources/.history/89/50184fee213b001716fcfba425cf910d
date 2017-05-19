@@ -1,0 +1,11 @@
+package dev.codenmore.tilegame.items;
+
+public class ItemManager {
+	
+	private Handler handler;
+	
+	public ItemManager(Handler handler){
+		this.handler = handler;
+	}
+
+}

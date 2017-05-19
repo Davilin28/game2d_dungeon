@@ -1,0 +1,5 @@
+package dev.codenmore.tilegame.entities.statics;
+
+public class Rock {
+
+}

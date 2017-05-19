@@ -1,0 +1,15 @@
+package dev.codenmore.tilegame.ui;
+
+public class UIObject {
+
+	protected float x, y;
+	protected int width, height;
+	protected boolean hovering = false;
+	
+	public UIObject(float x, float y, int width, int height){
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+	}
+}

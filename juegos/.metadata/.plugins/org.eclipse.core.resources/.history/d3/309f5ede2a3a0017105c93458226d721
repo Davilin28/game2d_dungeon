@@ -1,0 +1,13 @@
+package dev.codenmore.tilegame;
+
+import javax.swing.JOptionPane;
+
+public class Launcher {
+
+	public static void main(String[] args){
+		Game game = new Game("Tile Game!", 1280, 950);
+		game.start();
+		String respuesta = JOptionPane.showInputDialog("Escribe tu nombre de usuario");
+	}
+	
+}
